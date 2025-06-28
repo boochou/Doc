@@ -5,7 +5,7 @@ from dataclasses import dataclass
 from typing import Optional
 from app.models.models import Certificate
 from app.services.utilies import *
-from toolkit.app.value.CertTemplate import *
+from ..value.CertTemplate import *
 # from app.models.acl import ACL 
 
 class CommandGenerator(ABC):

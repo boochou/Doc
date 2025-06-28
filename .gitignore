@@ -1,2 +1,3 @@
 temp/
 toolkit/temp/
+**/__pycache__/

@@ -16,5 +16,4 @@ cmd_gen = CmdGenCert(cert, system="zOS", desfile="cert.jcl", log=False)
 cmd_gen.cmdGenImpl()
 cmd_gen.cmdGenBkt()
 
-Utilities.convert_certificate_to_base64(Path("your_cert_file.p7b"), Path("output.txt"))
 
