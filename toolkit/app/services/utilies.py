@@ -10,7 +10,6 @@ import base64
 from pathlib import Path
 
 class Utilities:
-
     @staticmethod
     def render_template(template_name: str, values: Dict[str, str]) -> str:
         # Import template module dynamically
@@ -35,4 +34,16 @@ class Utilities:
         output_file.write_text(data, encoding="utf-8")
 
         print(f"[LOG] Rendered {template_name} to {output_file}")
+    @staticmethod
+    def extractCertInfo():
+        """ Read file details -> extract
+        """
+        #TODO
+        pass
+    @staticmethod
+    def getCertInfo():
+        """ Read raw details -> extract
+        """
+        #TODO
+        pass
     
