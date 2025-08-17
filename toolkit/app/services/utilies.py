@@ -41,7 +41,7 @@ class Utilities:
         #TODO
         pass
     @staticmethod
-    def getCertInfo():
+    def getCertInfo(rawDate, label):
         """ Read raw details -> extract
         """
         #TODO
